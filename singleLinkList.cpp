@@ -20,6 +20,12 @@ public:
 
     void addNode()
     {
-        int
+        int nim;
+        cout << "\nMasukkan nomor mahasiswa : ";
+        cin >> nim;
+
+        Node *nodeBaru = new Node;
+        nodeBaru->noMhs = nim;
+        
     }
 }
