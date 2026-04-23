@@ -17,4 +17,9 @@ public:
     {
         START = NULL;
     }
+
+    void addNode()
+    {
+        int
+    }
 }
