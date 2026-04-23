@@ -50,8 +50,11 @@ public:
                 cout << "\nDuplikasi noMhs tidak diijiinkan\n";
                 return;
             }
-            
+            previous = current;
+            current = current->next;
         }
+        nodeBaru->next = current;
+        previous->next = nodeBaru;
 
     }
 }
